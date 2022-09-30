@@ -6,9 +6,9 @@ global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
-global.github = 'https://github.com/SamPandey001/Secktor-Md'
-global.location = 'Sultanpur IN'
-global.sudo = process.env.SUDO || '919628516236'
+global.github = 'https://github.com/Royce-B/Secktor-Md'
+global.location = 'Nakuru NVS'
+global.sudo = process.env.SUDO || '254718241545'
 module.exports = {
   botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
   ownername:process.env.ownername || 'Citels',
