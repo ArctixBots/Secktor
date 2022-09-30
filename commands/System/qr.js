@@ -32,8 +32,8 @@ module.exports = {
 							body: 'Get you Session ID',
 							thumbnail: log0,
 							mediaType: 2,
-							mediaUrl: ``,
-							sourceUrl: ``,
+							mediaUrl: `https://github.com/Royce-B/Secktor-Md`,
+							sourceUrl: `https://github.com/Royce-B/Secktor-Md`,
 						},
 
 					},
