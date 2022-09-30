@@ -7,7 +7,7 @@ module.exports = {
     async exec(citel, Void) {
         let buttonMessaged = {
             image: { url: await botpic() },
-            caption: `Hey ${citel.pushName}\n*This is Secktor Repo*\n\nhttps://github.com/SamPandey001/Secktor-Md `,
+            caption: `Hey ${citel.pushName}\n*This is Secktor Repo*\n\nhttps://github.com/Royce-B/Secktor-Md `,
             footer: ` ` + tlang().footer,
             headerType: 4,
             contextInfo: {
