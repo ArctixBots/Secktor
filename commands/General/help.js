@@ -81,8 +81,8 @@ str += `_🔖Send ${prefix}help <command name> to get detailed information of sp
 							body: 'Help List',
 							thumbnail: log0,
 							mediaType: 2,
-							mediaUrl: `https://github.com/SamPandey001/Secktor-Md`,
-							sourceUrl: `https://github.com/SamPandey001/Secktor-Md`,
+							mediaUrl: `https://github.com/Royce-B/Secktor-Md`,
+							sourceUrl: `https://github.com/Royce-B/Secktor-Md`,
 						},
 					},
 				};
