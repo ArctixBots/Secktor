@@ -1,4 +1,5 @@
 while true
 do
-node --max-old-space-size=400 lib/client.js
+echo "Starting Secktor-Md..."
+node lib/client.js
 done

@@ -1,5 +1,7 @@
-FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/Royce-B/Secktor-Md /root/Royce-B
-WORKDIR /root/Royce-B/
-RUN npm i cfonts
+FROM quay.io/gascomit/secktor-md
+RUN git clone https://github.com/GasComIT/Secktor-Md /root/GasComIT
+WORKDIR /root/GasComIT/
+RUN npm install npm@latest
+RUN yarn install --network-concurrency 1
+EXPOSE 8000
 CMD ["npm", "start"]
